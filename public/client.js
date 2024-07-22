@@ -2,7 +2,7 @@ let ws;
 
 function connectWebSocket() {
     // 1. Create an instance of a WebSocket pointing to a apecific server and port
-    ws = new WebSocket('ws://localhost:3006')
+    ws = new WebSocket('wss://nodejs-prod.onrender.com')
 
     // 2. Event handling - onopne, onmessage, onclose
     // - Connection made to the server
